@@ -1,4 +1,4 @@
-require "extended_logger/version"
+require "logger_ext/version"
 require "logger"
 
 class Logger

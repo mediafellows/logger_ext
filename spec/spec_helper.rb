@@ -1,5 +1,5 @@
 require "rspec"
-require "extended_logger"
+require "logger_ext"
 
 RSpec.configure do |config|
   config.run_all_when_everything_filtered = true

@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe ExtendedLogger do
+describe LoggerExt do
   let(:null_file) { File.open "/dev/null", "a" }
   let(:logger) { Logger.new null_file }
 

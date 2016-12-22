@@ -1,11 +1,11 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require "extended_logger/version"
+require "logger_ext/version"
 
 Gem::Specification.new do |gem|
-  gem.name    = "extended_logger"
-  gem.version = ::ExtendedLogger::VERSION
+  gem.name    = "logger_ext"
+  gem.version = ::LoggerExt::VERSION
   gem.authors = %w(radiospiel)
   gem.email   = %w(radiospiel@open-lab.org)
 
