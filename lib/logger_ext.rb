@@ -23,6 +23,8 @@ class Logger
         s
       end
     end
+
+    alias inspect to_s
   end
 
   private
